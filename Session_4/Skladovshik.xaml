@@ -1,0 +1,12 @@
+﻿<Window x:Class="Session_4.Skladovshik"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Session_4"
+        mc:Ignorable="d"
+        Title="Skladovshik" Height="600" Width="1200" WindowState="Maximized">
+    <Grid>
+        <Button VerticalAlignment="Center" FontSize="380" HorizontalAlignment="Center" Name="LogOutButton" Click="LogOutButton_Click">Выйти</Button>
+    </Grid>
+</Window>
